@@ -14,7 +14,6 @@ public class StudentService {
     }
 
     public List<Student> getStudents(){
-
         return studentRepository.findAll();
     }
 
@@ -28,4 +27,3 @@ public class StudentService {
         System.out.println(student);
     }
 }
-n
