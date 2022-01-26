@@ -25,5 +25,6 @@ public class StudentService {
         }
         studentRepository.save(student);
         System.out.println(student);
+        System.out.println("commit2");
     }
 }
